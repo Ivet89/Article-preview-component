@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <!-- Boostrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+
+<body>
+  <!-- /* Container */ -->
+  <div class="container-fluid  card-container">
+    <div class="row">
+      <!-- /* Card Container Left */ -->
+      <div class="col-lg-5 card-container-left">
+        <img src="images/drawers.jpg" alt="" class="img-drawers w-100">
+      </div>
+      <!-- /* Card Container Right */ -->
+      <div class="col-lg-7 card-container-right">
+        <div class="text-preview">
+          <h5> Shift the overall look and feel by adding these wonderful
+            touches to furniture in your home</h5>
+          <p> Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.</p>
+        </div>
+        <div class="row avatar-socialIcons-section position-relative">
+          <div class="col-8 avatar-section">
+            <div class="img-avatar">
+              <img src="images/avatar-michelle.jpg" alt="">
+            </div>
+            <div class="avatar-info">
+              <h6>Michelle Appleton</h6>
+              <p>28 Jun 2020</p>
+            </div>
+            <button id="share-btn" class="position-absolute">
+              <img src="images/icon-share.svg" alt="share icon">
+            </button>
+          </div>
+          <div class="position-relative">
+            <div id="share-container" class="col-4 hidden">
+              <a href="#" class="par">Share</a>
+              <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.pinterest.cl"><i class="fab fa-pinterest-p"></i></a>
+              <div class="share-container-triangular"></div>
+              <button id="unshare-btn">
+                <img src="images/icon-share.svg" alt="share icon">
+              </button>
+              <div id="arrow" class="hidden"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <script src="js/index.js"></script>
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
