@@ -161,10 +161,13 @@ button:focus {
         display: none;
     }
 
-    #share-container a i,
+     #share-container a i {
+        font-size: 20px;
+        padding: 15px 8px;
+    }
     #share-container .par {
         font-size: 20px;
-        padding: 15px 11.5px;
+        padding: 15px 10px;
     }
 
     #unshare-btn {
