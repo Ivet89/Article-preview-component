@@ -170,7 +170,7 @@ button:focus {
     #unshare-btn {
         visibility: visible;
         border-radius: 50%;
-        margin-left: 47px;
+        margin-left: 20px;
     }
 
 }
